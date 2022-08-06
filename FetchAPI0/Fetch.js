@@ -95,10 +95,11 @@
 
 // postData(jokeObject);
 
-const requestJoke = async(firstName, lastName) => {
-    const response = await fetch(`http://api.icndb.com/jokes/random?firstName=${firstName}&lastName=${lastName}`);
-    const jsonJokeData = await response.json();
-    console.log(jsonJokeData.value.joke);
-}
+//template literal
+// const requestJoke = async(firstName, lastName) => {
+//     const response = await fetch(`http://api.icndb.com/jokes/random?firstName=${firstName}&lastName=${lastName}`);
+//     const jsonJokeData = await response.json();
+//     console.log(jsonJokeData.value.joke);
+// }
 
-requestJoke('...', '...');
+// requestJoke('...', '...');
